@@ -7,6 +7,11 @@ Web kapely MOPED 56 — jedna stránka, žádný build.
 - `Moped56-promo.pdf` — vyrenderovaný materiál, na který web odkazuje
 - `assets/cover.jpg` — obal alba *Ať se děje co děje*
 
+## Dokumentace
+
+Podrobnosti jsou v [`docs/`](docs/) — úprava obsahu, generování promo PDF,
+zveřejnění a vizuální styl.
+
 ## Úpravy
 
 Otevřít `index.html` v prohlížeči, upravit, hotovo. Žádné npm, žádný dev server.
@@ -31,11 +36,6 @@ web se objeví až po přepnutí na public.
 
 ## Co ještě chybí
 
-Kapela to má doplnit, pak přegenerovat PDF a doplnit web:
-
-- reference z let 2024 a 2025 — nejnovější jsou z roku 2023
-- konkrétní monitorové mixy pro Vojtu a Patrika
-- odkaz na živé video (pořadatel chce vidět publikum, ne klip)
-- logo ve vektoru pro plakáty pořadatelů
-- odkazy na streaming (Spotify, YouTube) — na webu zatím nejsou
-- obal alba je jen 520×520 px, pro tisk je potřeba větší
+Reference z let 2024–2025, monitorové mixy, odkaz na živé video, logo ve
+vektoru, odkazy na streaming a obal alba ve větším rozlišení než 520×520.
+Podrobně v [docs/promo-pdf.md](docs/promo-pdf.md).
