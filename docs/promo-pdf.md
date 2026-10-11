@@ -24,6 +24,11 @@ Když jich vyjde víc, něco na první straně přeteklo — obvykle přibyl tex
 bloku "Kde jsme hráli" nebo do praktického infa. Řešení je zkrátit text, ne
 zmenšovat písmo; strana je záměrně plná až po patičku s kontaktem.
 
+"Kde jsme hráli" má místo na **čtyři řádky**, jeden řádek na rok, nejnovější
+nahoře, akce v řádku taky od nejnovější. S novým rokem sloučit nebo vypustit
+nejstarší řádek (proto 2022–23; řádek bez roku, Klub Kotelna a Rockové
+Třtěnice, už vypadl).
+
 `--virtual-time-budget=8000` dává prohlížeči čas načíst písmo Oswald z Google
 Fonts. Bez toho se PDF vysází systémovým fontem a vypadá jinak než web.
 
@@ -44,8 +49,5 @@ Všechno ostatní je doslovně převzaté. Mix 2 pro Jana Jaška zůstal, jak by
 
 Tohle si musí doplnit kapela, pak stačí upravit `promo.html` a přegenerovat:
 
-- **další reference z let 2024 a 2025** — zatím je tam jen Újezd u Přelouče
-  (2025), zbytek je z roku 2023 a starší. Stránka 1 je plná: nový řádek musí
-  nahradit nebo sloučit starší (dva řádky z roku 2023 už jsou sloučené do jednoho)
 - **konkrétní monitorové mixy** pro Vojtu a Patrika
 - **logo ve vektoru** pro plakáty pořadatelů
