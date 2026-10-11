@@ -1,34 +1,32 @@
 # Publikace
 
-Repozitář je zatím **privátní**, aby si to kapela mohla projít dřív než kdokoli
-jiný. Dokud se nepřepne na public, web nikde neběží — funguje jen lokálně
-otevřením `index.html` v prohlížeči.
-
-## Zveřejnění
-
-1. GitHub → Settings → General → Danger Zone → **Change visibility** → public
-2. Settings → **Pages** → Source: *Deploy from a branch* → větev `main`,
-   složka **`/ (root)`**
-3. Za pár minut web běží na `https://pesetasmasta.github.io/moped56/`
+Web běží na **https://moped56.cz** přes GitHub Pages — větev `main`, složka
+**`/ (root)`**. Každý push do `main` je za pár minut venku.
 
 **Složka musí být `/ (root)`, ne `/docs`.** V `/docs` je tahle dokumentace,
 ne web — kdyby se Pages nastavily na ni, zveřejní se místo webu tyhle poznámky.
 
-## Vlastní doména
+## Doména
 
-`pesetasmasta.github.io/moped56/` je adresa, která v mailu pořadateli působí
-jako hobby projekt. `moped56.cz` je u WEDOSu kolem 150 Kč/rok.
+`moped56.cz` je u WEDOSu. V repozitáři je soubor `CNAME` s jediným řádkem
+`moped56.cz`, u registrátora jsou A záznamy na IP adresy GitHub Pages a `www`
+jako CNAME na `pesetasmasta.github.io`. V Settings → Pages je zapnuté
+**Enforce HTTPS**.
 
-Postup, až se kapela rozhodne:
+## Vyhledávače
 
-1. registrace domény — držet by ji měla kapela, ne kdokoli, kdo web dělal
-2. do repozitáře přidat soubor `CNAME` s jediným řádkem `moped56.cz`
-3. u registrátora nastavit A záznamy na IP adresy GitHub Pages a `www` jako
-   CNAME na `pesetasmasta.github.io`
-4. v Settings → Pages zapnout **Enforce HTTPS**, jakmile se certifikát vystaví
+`robots.txt` a `sitemap.xml` leží v kořeni webu. Nový web bez odkazů zvenku
+vyhledávače samy najdou pomalu, proto ho tam ohlásit ručně:
+
+- **Google Search Console** — přidat doménu `moped56.cz` (ověření TXT záznamem
+  u WEDOSu), odeslat `https://moped56.cz/sitemap.xml`, u úvodní stránky
+  „Požádat o indexování“
+- **Bing Webmaster Tools** — umí převzít web z Search Console; z Bingu bere
+  výsledky i DuckDuckGo
+
+Při větší změně obsahu přepsat `<lastmod>` v `sitemap.xml`.
 
 ## Webnode
 
-Starý web `moped56.webnode.cz` zůstal nedotčený. Až bude nový web venku, jsou
-to dvě adresy pro jednu kapelu a ta starší je neaktuální — rozhodnout, jestli
-na nový web jen odkázat, přesměrovat, nebo starý zrušit.
+Starý web `moped56.webnode.cz` se má zablokovat. Zatím chybí přihlašovací
+údaje k účtu na Webnode.

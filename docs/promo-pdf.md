@@ -47,5 +47,4 @@ Tohle si musí doplnit kapela, pak stačí upravit `promo.html` a přegenerovat:
 - **reference z let 2024 a 2025** — nejnovější jsou z roku 2023, to je pro
   pořadatele nejviditelnější slabina celého materiálu
 - **konkrétní monitorové mixy** pro Vojtu a Patrika
-- **odkaz na živé video** — pořadatel chce vidět publikum, ne klip
 - **logo ve vektoru** pro plakáty pořadatelů
