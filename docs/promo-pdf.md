@@ -44,7 +44,8 @@ Všechno ostatní je doslovně převzaté. Mix 2 pro Jana Jaška zůstal, jak by
 
 Tohle si musí doplnit kapela, pak stačí upravit `promo.html` a přegenerovat:
 
-- **reference z let 2024 a 2025** — nejnovější jsou z roku 2023, to je pro
-  pořadatele nejviditelnější slabina celého materiálu
+- **další reference z let 2024 a 2025** — zatím je tam jen Újezd u Přelouče
+  (2025), zbytek je z roku 2023 a starší. Stránka 1 je plná: nový řádek musí
+  nahradit nebo sloučit starší (dva řádky z roku 2023 už jsou sloučené do jednoho)
 - **konkrétní monitorové mixy** pro Vojtu a Patrika
 - **logo ve vektoru** pro plakáty pořadatelů
